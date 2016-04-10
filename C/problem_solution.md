@@ -2,7 +2,7 @@
 
 For the Small dataset, it is sufficient to use trial division to find factors of potential jamcoins. Concretely, we can look for a nontrivial divisor of an integer k by testing divisibility of every integer in increasing order from 2 to the square root of k, inclusive and stopping if we find one. Searching past the square root of the number is not needed as if k has some nontrivial divisor d, then k / d is also a non-trivial divisor and the smaller of d and k / d is at most the square root of k. A sample implementation of this in C++ looks like this:
 
-```java
+```cpp
 long long convertBinaryToBase(int x, int base) {
   // Some languages have built-ins which make this easy.
   // For example, in Python, we can avoid recursion and
