@@ -25,36 +25,43 @@ Limits
 
 T = 1. (There will be only one test case.)
 It is guaranteed that at least J distinct jamcoins of length N exist.
-Small dataset
 
+### Small dataset
+
+```
 N = 16.
 J = 50.
-Large dataset
+```
 
+### Large dataset
+
+```
 N = 32.
 J = 500.
+```
 
 Note that, unusually for a Code Jam problem, you already know the exact contents of each input file. For example, the Small dataset's input file will always be exactly these two lines:
+```
 1
 16 50
+```
 
 So, you can consider doing some computation before actually downloading an input file and starting the clock.
 Sample
 
-Input
-  	
-Output
- 
-
+### Input
+```
 1
 6 3
-
-	
-
+```
+  	
+### Output
+``` 
 Case #1:
 100011 5 13 147 31 43 1121 73 77 629
 111111 21 26 105 1302 217 1032 513 13286 10101
 111001 3 88 5 1938 7 208 3 20 11
+```
 
 In this sample case, we have used very small values of N and J for ease of explanation. Note that this sample case would not appear in either the Small or Large datasets.
 
